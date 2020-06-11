@@ -1,0 +1,22 @@
+noMore = input("This file is for COMMENTS ONLY. Do NOT run this file, there is no point. Press [ENTER] key to close")
+'''
+2D mode
+
+SNU 2D mode is a step above the previous mode. The interface contains buttons, images, videos, music, but the 3D map isn't available yet
+You have a sidebar with a list of pages. Each page leads to a certain part of the web.
+The pages go in this order:
+
+1 Reddit
+2 Imgur
+3 YouTube
+4 Vimeo
+5 Tumblr
+6 Twitter
+7 Instagram
+8 Facebook
+-2 
+-3 Pornhub
+-4 4Chan
+
+
+'''
