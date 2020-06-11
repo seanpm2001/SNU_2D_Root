@@ -1,0 +1,119 @@
+/* Start of stylesheet */
+body {
+  background-color: lightblue;
+}
+
+t1 { /* Title 1 */
+  color: white;
+  text-align: center;
+  font-size: 500px;
+}  
+t2 { /* Title 2 */
+  color: white;
+  text-align: center;
+  font-size: 400px;
+}  
+t3 { /* Title 3 */
+  color: white;
+  text-align: center;
+  font-size: 300px;
+}
+t4 { /* Title 4 */
+  color: white;
+  text-align: center;
+  font-size: 250px;
+} 
+t5 { /* Title 5 */
+  color: white;
+  text-align: center;
+  font-size: 200px;
+}     
+t6 { /* Title 6 */
+  color: black;
+  text-align: center;
+  font-size: 100px;
+}
+table { /* Table */
+  border: 1px solid black;
+}
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
+/* new definitons to make the text stand out against the new background */
+p { /* paragraph whiteout */
+	color: white;
+}
+H1 { /* heading 1 whiteout */
+	color: white;
+}
+H2 { /* heading 2 whiteout */
+	color: white;
+}
+H3 { /* heading 3 whiteout */
+	color: white;
+}
+H4 { /* heading 4 whiteout */
+	color: white;
+}
+H5 { /* heading 5 whiteout */
+	color: white;
+}
+H6 { /* heading 6 whiteout */
+	color: white;
+}
+a { /* hyperlink whiteout */
+	color: white;
+}
+details { /* details pane whiteout */ /* never knew I could do this, it helps it stand out better */
+	color: white;
+}
+/* transparent box */
+div.transbox {
+  margin-top: 0px;
+  margin-bottom: 0px; 
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #000000;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+/* transparent box: paragraph */
+div.transbox p {
+  margin: 1%;
+  font-weight: bold;
+  color: #000000;
+}
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+/* End of stylesheet */
